@@ -1,0 +1,16 @@
+{
+	"tech.moddable.spray-monitor": {
+		"app": {
+			"title": "Spray Monitor",
+			"author": "Lizzie Prader",
+			"description": "Spray monitoring app version SH1.72",
+			"home": "https://github.com/lprader/store-tests/tree/master/spray-monitor",
+			"preferences": [
+				{
+					"path": "settings",
+					"title": "Settings"
+				}
+			]
+		}
+	}
+}
