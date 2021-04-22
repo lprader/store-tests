@@ -1,9 +1,9 @@
 {
-	"tech.moddable.runmod-piu": {
+	"tech.moddable.m5": {
 		"app": {
 			"title": "Spray Monitor",
 			"author": "Lizzie Prader",
-			"description": "Spray monitoring app version SH1.72",
+			"description": "Spray monitoring app version RH2.0",
 			"home": "https://github.com/lprader/store-tests/tree/master/spray-monitor",
 			"preferences": [
 				{
