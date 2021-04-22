@@ -12,5 +12,13 @@
 				}
 			]
 		}
+	},
+	"tech.moddable.balls": {
+		"app": {
+			"title": "balls",
+			"author": "Lizzie Prader",
+			"description": "balls",
+			"home": "https://github.com/lprader/store-tests/tree/master/spray-monitor"
+		}
 	}
 }
