@@ -18,7 +18,13 @@
 			"title": "balls",
 			"author": "Lizzie Prader",
 			"description": "balls",
-			"home": "https://github.com/lprader/store-tests/tree/master/spray-monitor"
+			"home": "https://github.com/lprader/store-tests/tree/master/spray-monitor",
+			"preferences": [
+				{
+					"path": "settings",
+					"title": "Settings"
+				}
+			]
 		}
 	},
 	"tech.moddable.cards": {
