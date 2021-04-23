@@ -34,5 +34,13 @@
 			"description": "cards",
 			"home": "https://github.com/lprader/store-tests/tree/master/spray-monitor"
 		}
+	},
+	"tech.moddable.spray-monitor": {
+		"app": {
+			"title": "Spray monitor",
+			"author": "Lizzie Prader",
+			"description": "Spray monitor",
+			"home": "https://github.com/lprader/store-tests/tree/master/spray-monitor"
+		}
 	}
 }
