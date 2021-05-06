@@ -1,16 +1,16 @@
 {
-	"tech.moddable.m5": {
+	"tech.moddable.giphy": {
 		"app": {
-			"title": "Spray Monitor",
+			"title": "Giphy",
 			"author": "Lizzie Prader",
-			"description": "Spray monitoring app version RH2.0",
-			"home": "https://github.com/lprader/store-tests/tree/master/spray-monitor",
+			"description": "Downloads and displays animated GIFs from <a target='_blank' href='https://giphy.com'>Giphy</a>.<BR><BR>You can read more about this app in the blog post <a target='_blank' href='https://blog.moddable.com/blog/?p=1794&preview=true'>Giphy</a>Downloading and Displaying Animated GIFs on an ESP32</a>.",
+			"home": "https://github.com/Moddable-OpenSource/moddable/tree/public/contributed/giphy",
 			"preferences": [
 				{
-					"path": "settings",
-					"title": "Settings"
+					"path": "wifi",
+					"title": "Wi-Fi"
 				}
 			]
-		}
+		},
 	}
 }
