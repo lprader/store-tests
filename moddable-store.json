@@ -4,7 +4,7 @@
 			"title": "Moddable One Animations",
 			"author": "Lizzie Prader",
 			"description": "Displays a series of eye-catching animations. This app was designed to show off the capabilities of Moddable One, but it runs on many other devices too.<BR><BR>You can read more about this app in the blog post <a target='_blank' href='https://blog.moddable.com/blog/animations-on-microcontrollers/'>Animations on a Display Powered by a $1 Wi-Fi Controller</a>.",
-			"home": "https://github.com/Moddable-OpenSource/moddable/tree/public/contributed/window-display-moddable-one",
+			"home": "https://github.com/Moddable-OpenSource/moddable/tree/public/contributed/window-display-moddable-one"
 		}
 	},
 	"tech.moddable.color-picker": {
@@ -12,7 +12,7 @@
 			"title": "Color Picker",
 			"author": "Lizzie Prader",
 			"description": "Displays a color wheel that allows the user to select a color. This color wheel is built using content objects from the Piu user interface framework and packaged as a module, making it easy to incorporate into any project built using Piu.<BR><BR>You can read more about this app in the blog post <a target='_blank' href='https://blog.moddable.com/blog/colorpicker/'>A Color Picker for Microcontrollers</a>.",
-			"home": "https://github.com/Moddable-OpenSource/moddable/tree/public/examples/piu/color-picker",
+			"home": "https://github.com/Moddable-OpenSource/moddable/tree/public/examples/piu/color-picker"
 		}
 	},
 	"tech.moddable.giphy": {
