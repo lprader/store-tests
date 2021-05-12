@@ -3,7 +3,7 @@
 		"app": {
 			"title": "Giphy",
 			"author": "Lizzie Prader",
-			"description": "Downloads and displays animated GIFs from <a target='_blank' href='https://giphy.com'>Giphy</a>.<BR><BR>You can read more about this app in the blog post <a target='_blank' href='https://blog.moddable.com/blog/giphy'>Giphy</a>Downloading and Displaying Animated GIFs on an ESP32</a>.",
+			"description": "Downloads and displays animated GIFs from <a target='_blank' href='https://giphy.com'>Giphy</a>.<BR><BR>You can read more about this app in the blog post <a target='_blank' href='https://blog.moddable.com/blog/giphy'>Downloading and Displaying Animated GIFs on an ESP32</a>.",
 			"home": "https://github.com/Moddable-OpenSource/moddable/tree/public/contributed/giphy",
 			"preferences": [
 				{
