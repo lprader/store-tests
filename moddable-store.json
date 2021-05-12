@@ -1,16 +1,16 @@
 {
-	"tech.moddable.qrcode": {
+	"tech.moddable.giphy": {
 		"app": {
-			"title": "QR Code",
-			"author": "Peter Hoddie",
-			"description": "Displays a QR code on screen.<BR><BR>You can read more about this app in the blog post <a target='_blank' href='https://blog.moddable.com/blog/qrcode/'>QR Code module for the Moddable SDK</a>.",
-			"home": "https://github.com/Moddable-OpenSource/moddable/tree/public/examples/data/qrcode",
+			"title": "Giphy",
+			"author": "Lizzie Prader",
+			"description": "Downloads and displays animated GIFs from <a target='_blank' href='https://giphy.com'>Giphy</a>.<BR><BR>You can read more about this app in the blog post <a target='_blank' href='https://blog.moddable.com/blog/giphy'>Giphy</a>Downloading and Displaying Animated GIFs on an ESP32</a>.",
+			"home": "https://github.com/Moddable-OpenSource/moddable/tree/public/contributed/giphy",
 			"preferences": [
 				{
-					"path": "data",
-					"title": "QR Code Data"
+					"path": "wifi",
+					"title": "Wi-Fi"
 				}
 			]
-		}
+		},
 	}
 }
