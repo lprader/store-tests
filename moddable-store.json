@@ -1,14 +1,14 @@
 {
-	"com.moddable.httpgetjson": {
+	"tech.moddable.m5": {
 		"app": {
-			"title": "httpgetjson",
-			"author": "Lizzie Prader",
-			"description": "test",
-			"home": "https://github.com/Moddable-OpenSource/moddable/tree/public/contributed/giphy",
+			"title": "SprayScan mSM",
+			"author": "Moddable",
+			"description": "Spray monitoring app version RH2.3",
+			"home": "https://github.com/Moddable-OpenSource/sprayscan",
 			"preferences": [
 				{
-					"path": "wifi",
-					"title": "Wi-Fi TESTING TESTING"
+					"path": "settings",
+					"title": "Settings"
 				}
 			]
 		}
