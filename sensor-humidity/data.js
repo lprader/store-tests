@@ -2,7 +2,7 @@ export default {
 	name: "CUSTOM_NAME", 
 	type: "Humidity", 
 	icon: "HumidityIcon",
-	color: "Green",
+	color: "GRAPH_COLOR",
 	units: "%", 
 	min: MIN_VALUE,
 	max: MAX_VALUE,

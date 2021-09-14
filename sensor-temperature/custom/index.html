@@ -8,6 +8,15 @@
 	<div class="line"><label>Interval</label><input id="CUSTOM_INTERVAL" type="text" value="5000"></input></div>
 	<div class="line"><label>Min value</label><input id="MIN_VALUE" type="text" value="0"></input></div>
 	<div class="line"><label>Max value</label><input id="MAX_VALUE" type="text" value="100"></input></div>
+	<div class="line">
+		<label>Graph color</label>
+		<select id="GRAPH_COLOR">
+			<option value="Green">Green</option>
+			<option value="Purple">Purple</option>
+			<option value="Orange">Orange</option>
+			<option value="Gray">Gray</option>
+		</select>
+	</div>
 	<script>
 		function getData() {
 			return {
@@ -16,7 +25,7 @@
 					CUSTOM_INTERVAL: document.getElementById("CUSTOM_INTERVAL").value,
 					MIN_VALUE: document.getElementById("MIN_VALUE").value,
 					MAX_VALUE: document.getElementById("MAX_VALUE").value,
-
+					GRAPH_COLOR: document.getElementById("GRAPH_COLOR").value
 				},
 			};
 		}
@@ -26,6 +35,7 @@
 			document.getElementById("CUSTOM_INTERVAL").value = file.CUSTOM_INTERVAL.toString(10);
 			document.getElementById("MIN_VALUE").value = file.MIN_VALUE.toString(10);
 			document.getElementById("MAX_VALUE").value = file.MAX_VALUE.toString(10);
+			document.getElementById("GRAPH_COLOR").value = file.GRAPH_COLOR;
 		}
 	</script>
 </body>
