@@ -3,7 +3,7 @@
 		"app": {
 			"title": "Monitoring Station",
 			"author": "Lizzie Prader",
-			"description": "Hub for sensor data",
+			"description": "Sensor data hub",
 			"preferences": [
 				{
 					"path": "wifi",
@@ -29,25 +29,25 @@
 				"path": "sensor-gas",
 				"author": "Lizzie Prader",
 				"title": "Gas (simulated)",
-				"description": "Simulated gas sensor station"
+				"description": "Simulated gas sensor"
 			},
 			{
 				"path": "sensor-humidity",
 				"author": "Lizzie Prader",
 				"title": "Humidity (simulated)",
-				"description": "Simulated humidity sensor station"
+				"description": "Simulated humidity sensor"
 			},
 			{
 				"path": "sensor-temperature",
 				"author": "Lizzie Prader",
 				"title": "Temperature (simulated)",
-				"description": "Simulated temperature sensor station"
+				"description": "Simulated temperature sensor"
 			},
 			{
 				"path": "sensor-tmp102",
 				"author": "Lizzie Prader",
 				"title": "TMP102",
-				"description": "TMP102 sensor station"
+				"description": "TMP102 temperature sensor"
 			}
 		]
 	}
