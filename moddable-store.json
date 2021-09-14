@@ -1,16 +1,54 @@
 {
-	"tech.moddable.m5": {
+	"tech.moddable.monitoring-station": {
 		"app": {
-			"title": "SprayScan mSM",
-			"author": "Moddable",
-			"description": "Spray monitoring app version RH2.3",
-			"home": "https://github.com/Moddable-OpenSource/sprayscan",
+			"title": "Monitoring Station",
+			"author": "Lizzie Prader",
+			"description": "Hub for sensor data",
 			"preferences": [
 				{
-					"path": "settings",
-					"title": "Settings"
+					"path": "wifi",
+					"title": "Wi-Fi"
 				}
 			]
 		}
+	},
+	"tech.moddable.sensor-station": {
+		"app": {
+			"title": "Sensor Station",
+			"author": "Lizzie Prader",
+			"description": "Sensor station host application",
+			"preferences": [
+				{
+					"path": "wifi",
+					"title": "Wi-Fi"
+				}
+			]
+		},
+		"mods": [
+			{
+				"path": "sensor-gas",
+				"author": "Lizzie Prader",
+				"title": "Gas (simulated)",
+				"description": "Simulated gas sensor station"
+			},
+			{
+				"path": "sensor-humidity",
+				"author": "Lizzie Prader",
+				"title": "Humidity (simulated)",
+				"description": "Simulated humidity sensor station"
+			},
+			{
+				"path": "sensor-temperature",
+				"author": "Lizzie Prader",
+				"title": "Temperature (simulated)",
+				"description": "Simulated temperature sensor station"
+			},
+			{
+				"path": "sensor-tmp102",
+				"author": "Lizzie Prader",
+				"title": "TMP102",
+				"description": "TMP102 sensor station"
+			},
+		]
 	}
 }

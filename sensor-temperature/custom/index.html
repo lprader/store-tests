@@ -1,0 +1,31 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<link type="text/css" rel="stylesheet" href="/assets/custom.css"/>
+</head>
+<body>
+	<div class="line"><label>Name</label><input id="CUSTOM_NAME" type="text" value="Humidity"></input></div>
+	<div class="line"><label>Interval</label><input id="CUSTOM_INTERVAL" type="text" value="5000"></input></div>
+	<div class="line"><label>Min value</label><input id="MIN_VALUE" type="text" value="0"></input></div>
+	<div class="line"><label>Max value</label><input id="MAX_VALUE" type="text" value="100"></input></div>
+	<script>
+		function getData() {
+			return {
+				"data.js": {
+					CUSTOM_NAME: document.getElementById("CUSTOM_NAME").value,
+					CUSTOM_INTERVAL: document.getElementById("CUSTOM_INTERVAL").value,
+					MIN_VALUE: document.getElementById("MIN_VALUE").value,
+					MAX_VALUE: document.getElementById("MAX_VALUE").value,
+
+				},
+			};
+		}
+		function setData(data) {
+			const file = data["data.js"];
+			document.getElementById("CUSTOM_NAME").value = file.CUSTOM_NAME;
+			document.getElementById("CUSTOM_INTERVAL").value = file.CUSTOM_INTERVAL.toString(10);
+			document.getElementById("MIN_VALUE").value = file.MIN_VALUE.toString(10);
+			document.getElementById("MAX_VALUE").value = file.MAX_VALUE.toString(10);
+		}
+	</script>
+</body>
